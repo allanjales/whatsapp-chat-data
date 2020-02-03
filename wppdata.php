@@ -68,14 +68,17 @@ if (is_readable($fileName))
 </head>
 
 <body class="bg-light">
-<nav class="navbar navbar-expand-md bg-success navbar-primary sticky-top">
+<nav class="navbar navbar-expand-md bg-success navbar-dark sticky-top">
 	<div class="container">
-		<a class="navbar-brand text-white" href="/wppdata.php">Whatsapp chat data by Allan Jales</a>
+		<a class="navbar-brand" href="/wppdata.php">Whatsapp chat data by Allan Jales</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-end" id="menu">
 			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/allanjales/whatsapp-chat-data">Github</a>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -161,7 +164,7 @@ if (is_readable($fileName))
 	{	
 		//Get first message date time parameters on international mode (Y-m-d H:i)
 		$firstDateTime = substr($message[0]['date'], 0, 2).'-'.substr($message[0]['date'], 3, 2).'-'.substr($message[0]['date'], 6).' '.substr($message[0]['time'], 0, 2).':'.substr($message[0]['time'], 3);
-		$lastDateTime = substr(end($message)['date'], 0, 2).'-'.substr(end($message)['date'], 3, 2).'-'.substr(end($message)['date'], 6).' '.substr(end($message)['time'], 0, 2).':'.substr(end($message)['time'], 3);
+		$lastDateTime = substr(end($message)['date'], 0, 2).'-'.substr(end($message)['date'], 3, 2).'-'.substr(end($message)['date'], 6).' '.substr(end($message)['time'], 0, 2).':'.substr($message[0]['time'], 3);
 
 		//Get timestamp of first date time and then the last timestamp
 		$timestamp = strtotime($firstDateTime);
