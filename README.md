@@ -2,11 +2,11 @@
 > Cria estatísticas de conversas do Whatsapp
 
 ## Necessário
-* Servidor Web;
+* Servidor web;
 * Arquivo `wppdata.php`;
 * Conversa exportada do Whatsapp.
 
-## Servidor Web
+## Servidor web
 Existem serviços que oferecem servidores web online, mas sua conversa será exposta num arquivo `.txt` ao público que acessar seu site.
 Portanto é uma alternativa não recomendada.
 
