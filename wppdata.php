@@ -45,6 +45,8 @@ if (is_readable($fileName))
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Whatsapp chat data</title>
 <meta name="author" content="Allan Jales">
+<link id="favicon" rel="shortcut icon" href="https://web.whatsapp.com/img/favicon/1x/favicon.png" type="image/png">
+<link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -58,9 +60,6 @@ if (is_readable($fileName))
     width: 720px;
     margin: auto;
     padding-bottom: 10px;
-}
-
-.chart-title{
 	user-select: none;
 }
 
@@ -87,15 +86,15 @@ if (is_readable($fileName))
 	<div class="mx-auto pb-4">
 		<?php if (!empty($message)): ?> 
 			<p id="construction">Carregando</p>
-			<h1 id="chartMonthTitle" class="mt-3 chart-title">Mensagens por mês</h1>
+			<h3 id="chartMonthTitle" class="mt-3">Mensagens por mês</h3>
 			<div class="d-flex flex-column chart">
 				<canvas id="msgChartMonth"></canvas>
 			</div>
-			<h1 id="chartDayTitle" class="mt-3 chart-title">Mensagens por dia</h1>
+			<h3 id="chartDayTitle" class="mt-3">Mensagens por dia</h3>
 			<div class="d-flex flex-column chart">
 				<canvas id="msgChartDay"></canvas>
 			</div>
-			<h1 id="chartHourTitle" class="mt-3 chart-title">Mensagens por hora</h1>
+			<h3 id="chartHourTitle" class="mt-3">Mensagens por hora</h3>
 			<div class="d-flex flex-column chart">
 				<canvas id="msgChartHour"></canvas>
 			</div>
