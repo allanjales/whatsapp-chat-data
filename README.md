@@ -27,4 +27,4 @@ O arquivo que deve ter o nome mudado tem esse formato inicialmente: Conversa do 
 3. Coloque o arquivo `conversa.txt` na mesma pasta que o `wppdata.php`
 4. Acesse o `wppdata.php` pelo servidor web e veja os histogramas do seu site
 
-Mais informações estão disponíveis na página do `wppdata.php`.
+Mais informações estão disponíveis na página do `wppdata.php` ao ser aberta no servidor web.
