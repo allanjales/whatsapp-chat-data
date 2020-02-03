@@ -263,7 +263,8 @@ if (is_readable($fileName))
 				yAxes: [{
 					ticks:
 					{
-						beginAtZero: true
+						beginAtZero: true,
+						precision: 0
 					},
 					scaleLabel:
 					{
@@ -404,7 +405,8 @@ if (is_readable($fileName))
 				yAxes: [{
 					ticks:
 					{
-						beginAtZero: true
+						beginAtZero: true,
+						precision: 0
 					},
 					scaleLabel:
 					{
@@ -529,7 +531,8 @@ if (is_readable($fileName))
 				yAxes: [{
 					ticks:
 					{
-						beginAtZero: true
+						beginAtZero: true,
+						precision: 0
 					},
 					scaleLabel:
 					{
