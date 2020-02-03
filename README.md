@@ -16,7 +16,7 @@ Eu utilizei o [XAMPP](https://www.apachefriends.org/pt_br/index.html) para rodar
 Para que os gráficos sejam gerados, é necessário um arquivo `.txt` da conversa a ser analisada.
 Para gerá-lo basta abrir a conversa que quiser exportar, clicar nos três pontos no canto direito superior e seguir: Mais > Exportar conversa.
 
-OBS: Não precisa incluir mídia, pois o código só usa a conversa em texto como dado. Apesar disso, ele contabiliza mídia para gerar os resultados.
+* OBS: Não precisa incluir mídia, pois o código só usa a conversa em texto como dado. Apesar disso, ele contabiliza mídia para gerar os resultados.
 
 Dependendo do tamanho da conversa, essa exportação pode demorar. Então uma janela de compartilhamento irá abrir para você escolher onde irá guarda-lo. No meu caso, eu escolho o [Google Drive](https://www.google.com.br/drive/apps.html), pois fica bem mais fácil de acessar o arquivo e transferi-lo do celular para o computador.
 
