@@ -28,3 +28,12 @@ O arquivo que deve ter o nome mudado tem esse formato inicialmente: Conversa do 
 4. Acesse o `wppdata.php` pelo servidor web e veja os histogramas do seu site
 
 Mais informações estão disponíveis na página do `wppdata.php` ao ser aberta no servidor web.
+
+## Exemplo
+Se o site estiver rodando corretamente e lendo o `PHP`, nele deve aparecer esta imagem:
+
+![Example](preview/not-found-file.png)
+
+Caso já tenha colocado o arquivo `conversa.txt` junto com o arquivo, este é um exemplo do que você deve ver:
+
+![Example](preview/example.png)
